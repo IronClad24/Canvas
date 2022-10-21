@@ -105,7 +105,7 @@ function play(){
         ball.dy *= -1;
     }
       // reset
-      if(ball.x + ball.radius > canvas.height){
+      /*if(ball.x + ball.radius > canvas.height){
         if(score > parseInt(localStorage.getItem('highScore'))){
           localStorage.setItem('highScore', score.toString());
           scoreDisplay.innerHtml = `High Score: ${score}`  
@@ -116,7 +116,7 @@ function play(){
         ball.dx = speed;
         ball.dy = -speed + 1;
 
-      }
+      }*/
      
      
      
