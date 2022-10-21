@@ -1,0 +1,44 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bowlby One', cursive;
+    color: #caa8f5;
+}
+
+
+
+
+body {
+ background: #230c33;  
+}
+
+#canvas {
+    background: #caa8f5;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #9984d4;
+}
+
+
+
+.high-score{
+    position: absolute;
+    top: 1.5rem;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+}
+
+
+.reset{
+    cursor: pointer;
+    position: absolute;
+    top: 95%;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+}
